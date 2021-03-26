@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #33475B;
 }
 
 .clearfix::after{
@@ -18,18 +19,22 @@
     margin: auto;
 }
 
+.check{
+    color: #FE775A;
+}
+
 /* ******************* */
 
 /* Header */
 
 header{
-    height: 1000px;
-    background-color: rgb(247, 234, 236);
+    height: 800px;
+    background-color: #FFF2EE;
 }
 
 .first_head{
     height: 80px;
-    background-color: lightgray;
+    background-color: #F4F9FD;
 }
 
 ul li a{
@@ -71,9 +76,8 @@ ul li a{
 
 .gethub{
     color: white;
-    height: 30px;
-    width: 60px;
-    padding: 10px 10px;
+    font-size: 12px;
+    padding: 12px 25px;
     background-color: #FE775A;
     border: 1px solid white;
     border-radius: 5px;
@@ -107,7 +111,7 @@ ul li a{
 
 .img_hubspot{
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
 .hubspot{
@@ -116,7 +120,7 @@ ul li a{
 }
 
 .right_head{
-    width: 50%;
+    width: 70%;
     float: left;
     text-align: right;
     right: 0;
@@ -124,8 +128,9 @@ ul li a{
 
 .right_head ul li{
     display: inline-block;
-    margin-top: 25px;
-    padding: 10px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 0;
 }
 
 .main_head{
@@ -134,6 +139,7 @@ ul li a{
     background-size: 100% 700px;
     background-repeat: no-repeat;
     background-position: right;
+    position: relative;
 }
 
 .s_head{
@@ -156,9 +162,8 @@ ul li a{
 
 .span_head{
     color: white;
-    height: 30px;
-    width: 60px;
-    padding: 10px 10px;
+    font-size: 15px;
+    padding: 20px 35px;
     background-color: #FE775A;
     border: 1px solid white;
     border-radius: 5px;
@@ -168,5 +173,262 @@ ul li a{
     font-size: small;
     margin-top: 40px;
 }
+
+.hl_head{
+    background-color: #AFEBE4;
+    height: 90px;
+    margin-top: 213px;
+    border: 3px solid black;
+}
+
+/* ******************* */
+
+/* Main */
+
+/* First Section Main */
+
+.content_main{
+    background-color: #F4F9FD;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.container_1{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+.cube{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 215px;
+}
+
+.h_cube{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p_cube{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.container_2{
+    height: 320px;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5) ;
+    border-radius: 5px;
+}
+
+.l_cont{
+    height: 100%;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.position_l{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.learnmore{
+    color: white;
+    font-size: 12px;
+    padding: 15px 30px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.r_cont{
+    height: 100%;
+    width: 70%;
+    float: left;
+    padding-left: 50px;
+}
+
+.r_title{
+    margin-top: 65px;
+    font-size: 1.2rem;
+}
+
+.cont_p{
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.pt{
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.linee{
+    width: 370px;
+    border: 0.5px solid black;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.spandiv{
+    margin-top: 30px;
+}
+
+.spancont{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}    
+
+.container_3{
+    height: 690px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.left_aside{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.img_aside{
+    height: 150px;
+    position: relative;
+}
+
+.buble{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t_aside{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.2rem;
+}
+
+.p_aside{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+.hr_aside{
+    border: 0.5px solid black;
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.h_aside{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.s_span{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.divspan{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.div_learn{
+    height: 100px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.learn_more{
+    color: white;
+    font-size: 12px;
+    padding: 20px 35px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center_aside{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.office{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right_aside{
+    float: left;
+    width: 30%;
+    background-color: black;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.table{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ******************* */
+
+/* Second Section Main */
+
+/* ******************* */
+
+/* Third Section Main */
+
+/* ******************* */
+
+/* ******************* */
+
+/* Footer */
+
+
 
 /* ******************* */
