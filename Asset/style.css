@@ -294,7 +294,7 @@ ul li a{
 }    
 
 .container_3{
-    height: 690px;
+    height: 700px;
     margin-top: 50px;
     width: 100%;
 }
@@ -418,6 +418,179 @@ ul li a{
 /* ******************* */
 
 /* Second Section Main */
+
+.contblue{
+    height: 850px;
+    background-color: #00AFB2;
+}
+
+.sectionblue{
+    height: 40%;
+}
+
+.divblue{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+
+.hblue{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.pblue{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    color: white;
+}
+
+.sectable{
+    height: 40%;
+    margin-top: 100px;
+}
+
+.mastertable{
+    height: 100%;
+    width: 100%;
+}
+
+.tablecenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+}
+
+.imgtable{
+    width: 20%;
+}
+
+.htable{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}  
+
+.plustable{
+    color: white;
+}
+
+.stable{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    margin-top: 15px;
+
+}
+
+.table1{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+
+.table2{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+.imgtableblog{
+    width: 30%;
+}
+
+.table3{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.imgtableac{
+    width: 50%;
+}
+.table4{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+.imgtablebound{
+    width:40%;
+}
+
+.table5{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtableconn{
+    width: 30%;
+}
+
+.table6{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtableglobe{
+    width: 12%;
+}
+
+.table7{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtablefollow{
+    width: 12%;
+}
+
+.table8{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+}
+
+.imgtablegrowth{
+    width: 50%;
+}
+
+
 
 /* ******************* */
 
