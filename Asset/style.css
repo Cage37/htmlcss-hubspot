@@ -421,7 +421,7 @@ ul li a{
 
 .contblue{
     height: 850px;
-    background-color: #00AFB2;
+    background: linear-gradient(270deg, #00BCA6 0%, #00BFDB 100%);
 }
 
 .sectionblue{
@@ -483,6 +483,9 @@ ul li a{
 
 .plustable{
     color: white;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .stable{
@@ -590,11 +593,108 @@ ul li a{
     width: 50%;
 }
 
-
-
 /* ******************* */
 
 /* Third Section Main */
+
+.secpartner{
+    height: 850px;
+}
+
+.firstpartner{
+    height: 40%;
+}
+
+.firstpartnerleft{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    float: left;
+}
+
+.partnerposition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hfirstleft{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.pfirstleft{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.divlogo{
+    height: 100%;
+    width: 70%;
+    float: left;
+    position: relative;
+}
+
+.logomargin{
+    width: 80%;
+}
+
+.partnerlogo{
+    width: 110px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+.secondpartner{
+    height: 60%;
+}
+
+.divadvertising{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.hadvertising{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.padvertising{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.gethubadvertising{
+    color: white;
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.padvertising2{
+    margin-top: 70px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.happyuser{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.happyuser img{
+    width: 60%;
+    margin-left: 180px;
+}
 
 /* ******************* */
 
