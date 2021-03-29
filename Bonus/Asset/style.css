@@ -1,0 +1,824 @@
+/* Utility */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #33475B;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.utility{
+    width: 70%;
+    margin: auto;
+}
+
+.check{
+    color: #FE775A;
+}
+
+/* ******************* */
+
+/* Header */
+
+header{
+    height: 800px;
+    background-color: #FFF2EE;
+}
+
+.first_head{
+    height: 80px;
+    background-color: #F4F9FD;
+    border-bottom: 1px solid #33475B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.left_nav{
+    width: 50%;
+}
+
+.img_head{
+    background-color: black;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.vr{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.search{
+    height: 15px;
+}
+
+.login{
+    color: #FE775A;
+    height: 30px;
+    width: 60px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    margin-left: 10px;
+}   
+
+.gethub{
+    color: white;
+    font-size: 12px;
+    padding: 12px 25px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.left_nav, .right_nav{
+    float: left;
+}
+
+ .left_nav li{
+     display: inline-block;
+     margin-top: 30px;
+}
+
+.right_nav li{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.right_nav{
+    width: 50%;
+    text-align: right;
+    right: 0;
+}    
+
+.second_head{
+    height: 80px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.img_hubspot{
+    float: left;
+    width: 30%;
+}
+
+.hubspot{
+    float: left;
+    margin-top: 25px;
+}
+
+.right_head{
+    width: 70%;
+    float: left;
+    text-align: right;
+    right: 0;
+}
+
+.right_head ul li{
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.main_head{
+    height: 700px;
+    background-image: url(./IMG/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.s_head{
+    height: 400px;
+    width: 400px;
+}
+
+.t_head{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.p_head{
+    line-height: 30px;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.span_head{
+    color: white;
+    font-size: 15px;
+    padding: 20px 35px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sp_head{
+    font-size: small;
+    margin-top: 60px;
+}
+
+.hl_head{
+    background-color: #AFEBE4;
+    height: 90px;
+    margin-top: 213px;
+    border: 3px solid black;
+}
+
+/* ******************* */
+
+/* Main */
+
+/* First Section Main */
+
+.content_main{
+    background-color: #F4F9FD;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.container_1{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+.cube{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 215px;
+}
+
+.h_cube{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p_cube{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.container_2{
+    height: 320px;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5) ;
+    border-radius: 5px;
+}
+
+.l_cont{
+    height: 100%;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.position_l{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.learnmore{
+    color: white;
+    font-size: 12px;
+    padding: 15px 30px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.r_cont{
+    height: 100%;
+    width: 70%;
+    float: left;
+    padding-left: 50px;
+}
+
+.r_title{
+    margin-top: 65px;
+    font-size: 1.2rem;
+}
+
+.cont_p{
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.pt{
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.linee{
+    width: 370px;
+    border: 0.5px solid black;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.spandiv{
+    margin-top: 30px;
+}
+
+.spancont{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}    
+
+.container_3{
+    height: 700px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.left_aside{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.img_aside{
+    height: 150px;
+    position: relative;
+}
+
+.buble{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t_aside{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.2rem;
+}
+
+.p_aside{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+.hr_aside{
+    border: 0.5px solid black;
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.h_aside{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.s_span{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.divspan{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.div_learn{
+    height: 100px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.learn_more{
+    color: white;
+    font-size: 12px;
+    padding: 20px 35px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center_aside{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.office{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right_aside{
+    float: left;
+    width: 30%;
+    background-color: black;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+}
+
+.table{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ******************* */
+
+/* Second Section Main */
+
+.contblue{
+    height: 850px;
+    background: linear-gradient(270deg, #00BCA6 0%, #00BFDB 100%);
+}
+
+.sectionblue{
+    height: 40%;
+}
+
+.divblue{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+
+.hblue{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.pblue{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    color: white;
+}
+
+.sectable{
+    height: 40%;
+    margin-top: 100px;
+}
+
+.mastertable{
+    height: 100%;
+    width: 100%;
+}
+
+.tablecenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+}
+
+.imgtable{
+    width: 20%;
+}
+
+.htable{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}  
+
+.plustable{
+    color: white;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.stable{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    margin-top: 15px;
+
+}
+
+.table1{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+
+.table2{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.imgtableblog{
+    width: 30%;
+}
+
+.table3{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.imgtableac{
+    width: 50%;
+}
+.table4{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+.imgtablebound{
+    width:40%;
+}
+
+.table5{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtableconn{
+    width: 30%;
+}
+
+.table6{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtableglobe{
+    width: 12%;
+}
+
+.table7{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+.imgtablefollow{
+    width: 12%;
+}
+
+.table8{
+    float: left;
+    width: 25%;
+    height: 50%;
+    position: relative;
+}
+
+.imgtablegrowth{
+    width: 50%;
+}
+
+/* ******************* */
+
+/* Third Section Main */
+
+.secpartner{
+    height: 850px;
+}
+
+.firstpartner{
+    height: 40%;
+}
+
+.firstpartnerleft{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    float: left;
+}
+
+.partnerposition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hfirstleft{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.pfirstleft{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.divlogo{
+    height: 100%;
+    width: 70%;
+    float: left;
+    position: relative;
+}
+
+.logomargin{
+    width: 80%;
+}
+
+.partnerlogo{
+    width: 110px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+.secondpartner{
+    height: 60%;
+}
+
+.divadvertising{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.hadvertising{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.padvertising{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.gethubadvertising{
+    color: white;
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: #FE775A;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.padvertising2{
+    margin-top: 70px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.happyuser{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.happyuser img{
+    width: 60%;
+    margin-left: 180px;
+}
+
+/* ******************* */
+
+/* ******************* */
+
+/* Footer */
+
+footer{
+    height: 650px;
+    background-color: #32495B;
+}
+
+.listfooter{
+    width: 100%;
+    height: 300px;
+}
+
+.footdiv{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+.listfooter h3, .listfooter ul, .listfooter li, .listfooter a{
+    color: white;
+}
+
+.listfooter h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.listfooter ul, .listfooter li, .listfooter a{
+    list-style: none;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.contactdiv{
+    height: 200px;
+    color: white;
+}
+
+.socialdiv{
+    width: 200px;
+    height: 100px;
+    margin-left: 750px;
+}
+
+.divsupport{
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+.support{
+    color: #32495B;
+    font-size: 12px;
+    padding: 10px 12px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.socialicon{
+    color: white;
+    letter-spacing: 20px;
+}
+
+.divlang{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    word-spacing: 15px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.divlang ul, .divlang li, .divlang a{
+    display: inline-block;
+    color: white;
+}
+
+.lastfooter{
+    height: 150px;
+    width: 100%;
+}
+
+.firstfoot{
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 50px;
+}
+
+.pfoot{
+    color: white;
+    font-size: 15px;
+}
+
+.secondfoot{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+
+.secondfoot span{
+    color: white;
+    padding: 15px;
+}
+
+.footspan{
+    margin-left: 230px;
+}
+
+/* ******************* */
