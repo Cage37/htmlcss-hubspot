@@ -35,6 +35,7 @@ header{
 .first_head{
     height: 80px;
     background-color: #F4F9FD;
+    border-bottom: 1px solid #33475B;
 }
 
 ul li a{
@@ -136,7 +137,6 @@ ul li a{
 .main_head{
     height: 700px;
     background-image: url(./IMG/jumbotron.png);
-    background-size: 100% 700px;
     background-repeat: no-repeat;
     background-position: right;
     position: relative;
@@ -167,11 +167,12 @@ ul li a{
     background-color: #FE775A;
     border: 1px solid white;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .sp_head{
     font-size: small;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .hl_head{
@@ -515,7 +516,6 @@ ul li a{
     position: relative;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-    
 }
 
 .imgtableblog{
@@ -702,6 +702,117 @@ ul li a{
 
 /* Footer */
 
+footer{
+    height: 650px;
+    background-color: #32495B;
+}
 
+.listfooter{
+    width: 100%;
+    height: 300px;
+}
+
+.footdiv{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+.listfooter h3, .listfooter ul, .listfooter li, .listfooter a{
+    color: white;
+}
+
+.listfooter h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.listfooter ul, .listfooter li, .listfooter a{
+    list-style: none;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.contactdiv{
+    height: 200px;
+    color: white;
+}
+
+.socialdiv{
+    width: 200px;
+    height: 100px;
+    margin-left: 750px;
+}
+
+.divsupport{
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+.support{
+    color: #32495B;
+    font-size: 12px;
+    padding: 10px 12px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.socialicon{
+    color: white;
+    letter-spacing: 20px;
+}
+
+.divlang{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    word-spacing: 15px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.divlang ul, .divlang li, .divlang a{
+    display: inline-block;
+    color: white;
+}
+
+.lastfooter{
+    height: 150px;
+    width: 100%;
+}
+
+.firstfoot{
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 50px;
+}
+
+.pfoot{
+    color: white;
+    font-size: 15px;
+}
+
+.secondfoot{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+
+.secondfoot span{
+    color: white;
+    padding: 15px;
+}
+
+.footspan{
+    margin-left: 230px;
+}
 
 /* ******************* */
